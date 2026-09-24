@@ -1,9 +1,9 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nelson</title>
+    <title>Dapa</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -23,11 +23,11 @@
     <section id="home" class="parallax bg-1">
       <div class="content">
         <img
-          src="beconcream.jpg"
+          src="oliver.jpeg"
           style="width: 100px; height: 100px; border-radius: 100%"
         />
-        <h1>Nelson Wijaya Putra</h1>
-        <p>Youtuber</p>
+        <h1>Daffa Salsabila</h1>
+        <p>Web Programmer</p>
         <hr />
         <h2>Overview</h2>
         <p>Hi, saya adalah developer saat ini sedang belajar HTML</p>
@@ -51,4 +51,70 @@
       <p>&copy;2026 @Daffa_Salsabila</p>
     </footer>
   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapa - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="nav-container">
+            <h2 class="logo">Daffa Salsabila</h2>
+            <button onclick="toggleMenu()">☰</button>
+            <nav id="menu">
+                <a href="Home.html">Home</a>
+                <a href="Ability.html">Ability</a>
+                <a href="About.html">About</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Home -->
+    <section class="parallax bg-1">
+        <div class="content">
+            <img src="oliver.jpeg" alt="Foto Dapa">
+            <h1>Daffa Salsabila</h1>
+            <p>Web Programmer</p>
+            <hr>
+            <h2>Overview</h2>
+            <p>
+                Hi, saya adalah developer yang saat ini sedang belajar HTML,
+                CSS, dan Javascript.
+            </p>
+            <!-- Gallery -->
+            <div class="gallery">
+                <figure>
+                    <figcaption>Skills</figcaption>
+                    <p>Saya bisa ngoding "Hello World"</p>
+                </figure>
+
+                <figure>
+                    <figcaption>Pengalaman</figcaption>
+                    <p>Saya bisa bismillah</p>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 @Daffa_Salsabila</p>
+    </footer>
+    <script>
+        function toogleMenu() {
+            document.getElementById('menu').classList.toggle('tampil');
+        }
+    </script>
+</body>
 </html>
